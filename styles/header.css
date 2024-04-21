@@ -1,0 +1,75 @@
+header {
+  background-color: darkred;
+}
+
+nav {
+  background-color: #182335;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0px;
+  position: fixed;
+  width: 100%;
+  color: white;
+}
+
+.logo-container {
+  width: 160px;
+  margin-left: 3rem;
+}
+
+.logo-container img {
+  height: 3rem;
+  margin-top: 0.3rem;
+  padding: 2px;
+  align-items: center;
+}
+
+.company-name {
+  align-items: center;
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  text-shadow: 2px 2px #0f1f3b;
+}
+
+.page-arrows {
+  align-items: center;
+  display: flex;
+  font-weight: bold;
+}
+
+.page-arrows img {
+  height: 25px;
+}
+
+.topBar {
+  align-items: center;
+  display: flex;
+  list-style-type: none;
+  margin-right: 3rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.topBar li {
+  margin-left: 2rem;
+}
+
+.navs {
+  align-items: center;
+  display: flex;
+  list-style-type: none;
+  margin-right: 3rem;
+  margin-top: 1rem;
+}
+
+.navs li {
+  margin-left: 4rem;
+}
+
+.selected {
+  color: blueviolet;
+}
