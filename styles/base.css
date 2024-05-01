@@ -1,5 +1,15 @@
+/* Explicit "default" values for the page.  Overides browser defaults which may be archaic. */
 html, body {
   height: 100%;
+    a:active {
+    color: blue;
+    }
+    a:visited {
+      color: wheat;
+      }
+    a:hover {
+      color: darkred;
+    }
 }
 
 body {
@@ -7,4 +17,12 @@ body {
   flex-direction: column;
   font-family: sans-serif;
   min-height: 100vh;
+  /* font-size: 1.125rem;  Cross-check with notes.
+  font-family: san-serif;  Commented in Master
+  color: #707070;
+  margin: 0; */
 }
+
+/* img {
+  max-width: 100%;
+} */

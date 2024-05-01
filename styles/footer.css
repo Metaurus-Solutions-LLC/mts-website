@@ -1,19 +1,15 @@
 address {
   font-style: normal;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 
 address span {
-  margin: 0 6px;
+  margin: 0 .4rem;
 }
 
 footer {
   background-color: #182335;
   color: rgba(255, 255, 255, 0.7);
-  padding: 30px 0;
+  padding: 1.9em 0;
   text-align: center;
-}
-
-.icons-container i {
-  margin: 0 8px;
 }
