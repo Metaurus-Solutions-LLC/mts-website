@@ -239,7 +239,6 @@ main {
   }
 }
 
-
 /* Image on top for even smaller devices */
 @media (max-width: 640px) {
   .topic-container {
@@ -249,17 +248,33 @@ main {
   }
 }
 
-
 /* Widen text for even smaller devices */
 @media (max-width: 640px) {
   .topic-setup {
-    width: 100%;
+    width: 90%;
   }
 }
 
-/* Remove bottom margin for even smaller devices */
+/* Even smaller font size for even smaller devices */
 @media (max-width: 640px) {
-  .topic-setup {
-    margin-top: 0;
+  .mts-partner-today {
+    font-size: .6rem;
+    margin: .5rem;
+    max-width: 80%;
+  }
+}
+
+/* Reduce left-margin for even smaller devices */
+@media (max-width: 640px) {
+  .mts-partner-today h1 {
+    max-width: 90%;
+    margin: 1rem;
+  }
+}
+
+/* Reduce container for even smaller devices */
+@media (max-width: 640px) {
+  .mts-partner-today h2 {
+    max-width: 60%;
   }
 }
