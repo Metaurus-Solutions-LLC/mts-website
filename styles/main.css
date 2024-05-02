@@ -264,9 +264,10 @@ main {
   }
 }
 
-/* Reduce left-margin for even smaller devices */
+/* Reduce width for even smaller devices */
 @media (max-width: 640px) {
   .mts-partner-today h1 {
+    font-size: 1rem;
     max-width: 90%;
     margin: 1rem;
   }
