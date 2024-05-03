@@ -261,7 +261,7 @@ main {
 @media (max-width: 640px) {
   .mts-partner-today {
     font-size: .6rem;
-    margin: 1rem;
+    margin: 2rem;
     max-width: 80%;
     align-content: center;
   }
