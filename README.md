@@ -22,9 +22,9 @@ This website is the main website for Metaurus Solutions, LLC.
 ## API:
 
 ## Links:
-  - [Route 66 Photo Album Repo](https://github.com/TWetekamp/r66-photo-album)
-  - [Github Scrum Board](https://github.com/TWetekamp/r66-photo-album/projects/1)
-  - [Route 66 Photo Album Website](https://twetekamp.github.io/route66-photo-album/index.html)
+  - [Metaurus Solutions Website Repo](https://github.com/Metaurus-Solutions-LLC/mts-website)
+  - [Github Scrum Board](https://github.com/Metaurus-Solutions-LLC/mts-website/projects/1)
+  - [Metaurus Solutions Website](https://metaurus-solutions.com)
 
 ## JS library:
 

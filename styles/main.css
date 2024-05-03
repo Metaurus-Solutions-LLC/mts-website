@@ -244,7 +244,8 @@ main {
   .topic-container {
     display: flex;
     flex-direction: column-reverse;
-    justify-content: center;
+    justify-content: left;
+    margin: 0;
   }
 }
 
@@ -252,6 +253,7 @@ main {
 @media (max-width: 640px) {
   .topic-setup {
     width: 90%;
+    margin: 0;
   }
 }
 
@@ -259,7 +261,7 @@ main {
 @media (max-width: 640px) {
   .mts-partner-today {
     font-size: .6rem;
-    margin: .5rem;
+    margin: 0;
     max-width: 80%;
   }
 }
@@ -269,7 +271,7 @@ main {
   .mts-partner-today h1 {
     font-size: 1rem;
     max-width: 90%;
-    margin: 1rem;
+    margin: 0;
   }
 }
 
@@ -277,5 +279,6 @@ main {
 @media (max-width: 640px) {
   .mts-partner-today h2 {
     max-width: 60%;
+    margin: 0;
   }
 }
