@@ -10,7 +10,7 @@ address span {
 footer {
   background-color: #182335;
   color: rgba(255, 255, 255, 0.7);
-  padding: 0;
+  padding: 4;
   width: 100%;
   margin: 0 auto;
 }
