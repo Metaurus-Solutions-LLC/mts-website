@@ -232,20 +232,21 @@ main {
 }
 
 /* Smaller image size for smaller devices */
-@media (max-width: 1280px) {
+/* @media (max-width: 1280px) {
   .page {
     font-size: .75rem;
     margin: 4rem;
   }
-}
+} */
 
 /* Image on top for even smaller devices */
 @media (max-width: 640px) {
   .topic-container {
     display: flex;
     flex-direction: column-reverse;
-    justify-content: left;
+    /* justify-content: left; */
     margin: 0;
+    font-size: .75rem;
   }
 }
 
@@ -259,8 +260,28 @@ main {
 
 /* Even smaller font size for even smaller devices */
 @media (max-width: 640px) {
+  .topic-grabber {
+    font-size: .75rem;
+    margin: 2rem;
+    max-width: 80%;
+    align-content: center;
+  }
+}
+
+/* Even smaller font size for even smaller devices */
+@media (max-width: 640px) {
+  .topic-question {
+    font-size: .75rem;
+    margin: 2rem;
+    max-width: 80%;
+    align-content: center;
+  }
+}
+
+/* Even smaller font size for even smaller devices */
+@media (max-width: 640px) {
   .mts-partner-today {
-    font-size: .6rem;
+    font-size: .75rem;
     margin: 2rem;
     max-width: 80%;
     align-content: center;
@@ -270,7 +291,7 @@ main {
 /* Reduce width for even smaller devices */
 @media (max-width: 640px) {
   .mts-partner-today h1 {
-    font-size: 1rem;
+    font-size: .75rem;
     max-width: 90%;
     margin: 1rem;
   }
@@ -279,6 +300,7 @@ main {
 /* Reduce container for even smaller devices */
 @media (max-width: 640px) {
   .mts-partner-today h2 {
+    font-size: .75rem;
     max-width: 60%;
     margin: 1rem;
   }
