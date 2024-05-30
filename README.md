@@ -39,7 +39,7 @@ This website is the main website for Metaurus Solutions, LLC.
 
 - [Ted Wetekamp](https://www.linkedin.com/in/ted-wetekamp-a6a2281/)
 
-Metaurus Solutions Website Product Backlog
+## Metaurus Solutions Website Product Backlog
 1.  Change the email page to a dedicated Metaurus Solutions formspree call that sends email to ted.wetekamp@metaurus-solutions.com.
 2.  Add page illustrating the history of the Battle of the Metaurus.
 3.  Re-factor to React Single-Page Application
