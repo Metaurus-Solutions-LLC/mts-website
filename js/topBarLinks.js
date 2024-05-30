@@ -9,7 +9,7 @@ var topBarLinks = document.getElementById("topBarLinks");
                 <li class="flex items-start list-none mr-4 m-2">Houston, TX</li>
 <!--            <li class="flex items-start list-none mr-4 m-2">713-555-1212</li>                         -->
 <!--            <li class="flex items-start list-none mr-4 m-2">info@metaurus-solutions.com</li>          -->
-                <li class="flex items-start list-none mr-4 m-2 underline"><a href="./pages/email.html">Contact Us</a></li>
+                <li class="flex items-start list-none mr-4 m-2 underline"><a href="./pages/email.html" target="_blank">Contact Us</a></li>
             </ul>
             <div class="justify-content: end; text-[white] text-2xl mr-8 m-2">
 <!--        <a href="https://twitter.com/TedWetekamp" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>                       -->

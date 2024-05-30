@@ -9,6 +9,6 @@ var navBarLinks = document.getElementById("navBarLinks");
             <!--     <li>What we do</li>            -->
             <!--     <li>Products</li>              -->
             <!--     <li>News</li>                  -->
-            <li class="underline"><a href="./pages/email.html">Contact Us</a></li>
+            <li class="underline"><a href="./pages/email.html" target="_blank">Contact Us</a></li>
         </ul>
         `;
