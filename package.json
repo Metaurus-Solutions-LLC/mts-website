@@ -1,0 +1,27 @@
+{
+  "name": "mts-website",
+  "version": "1.0.0",
+  "description": "Website for Metaurus Solutions, LLC",
+  "scripts": {
+    "buildcss": "tailwindcss -i ./styles/src/input.css -o ./styles/main.css",
+    "watchcss": "tailwindcss -i ./styles/src/input.css -o ./styles/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Metaurus-Solutions-LLC/mts-website.git"
+  },
+  "author": "Ted Wetekamp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Metaurus-Solutions-LLC/mts-website/issues"
+  },
+  "homepage": "https://github.com/Metaurus-Solutions-LLC/mts-website#readme",
+  "devDependencies": {
+    "@tailwindcss/jit": "^0.1.18",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "caniuse-lite": "^1.0.30001625"
+  }
+}

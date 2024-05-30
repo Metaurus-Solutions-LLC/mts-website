@@ -4,18 +4,18 @@ var topBarLinks = document.getElementById("topBarLinks");
   
     topBarLinks.innerHTML = 
         `
-        <div class=topBar>
-            <ul class="contact-container">
-                <li>Houston, TX</li>
-<!--            <li>713-555-1212</li>                         -->
-<!--            <li>info@metaurus-solutions.com</li>          -->
-                <li><a href="./email.html">Contact Us</a></li>
+        <div class="topBar">
+            <ul class="flex items-start list-none ml-8">
+                <li class="flex items-start list-none mr-4 m-2">Houston, TX</li>
+<!--            <li class="flex items-start list-none mr-4 m-2">713-555-1212</li>                         -->
+<!--            <li class="flex items-start list-none mr-4 m-2">info@metaurus-solutions.com</li>          -->
+                <li class="flex items-start list-none mr-4 m-2 underline"><a href="./pages/email.html">Contact Us</a></li>
             </ul>
-            <div class="icons-container">
+            <div class="justify-content: end; text-[white] text-2xl mr-8 m-2">
 <!--        <a href="https://twitter.com/TedWetekamp" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>                       -->
 <!--        <a href="https://www.instagram.com/tedwetekamp/" target="_blank"><i class="fab fa-instagram-square fa-2x"></i></a>       -->
 <!--        <a href="https://www.linkedin.com/in/ted-wetekamp-a6a2281" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>     -->
-<!--        <a href="email.html" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a>                                     -->
+<!--        <a href="./pages/email.html" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a>                             -->
             </div>
         </div>
         `;
