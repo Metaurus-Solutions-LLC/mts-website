@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add custom CSS below */
+
+/* Base CSS */
+
+body,
+html {
+  @apply h-full;
+}
+
+body a:active,
+html a:active {
+  @apply text-[blue];
+}
+
+body a:visited,
+html a:visited {
+  @apply text-[wheat];
+}
+
+body a:hover,
+html a:hover {
+  @apply text-[darkred];
+}
+
+body {
+  @apply flex flex-col min-h-screen;
+  font-family: sans-serif;
+}
+
+/* Header */
+nav {
+  @apply sticky top-0 bg-[#182335] block fixed w-full text-[white] mt-0;
+}
+
+.topBar {
+    @apply w-full flex justify-between list-none text-[white] bg-[darkred] m-0;
+    /* align-items: center; */
+    /* Other options: space-around, space-evenly */
+  }
+  .topBar a:hover {
+    @apply text-[#0f1f3b];
+  }
+
+  .navBar {
+    @apply flex justify-between items-start text-[seashell] mx-0 my-[0.25em];
+  }
+
+  .navs {
+    @apply items-center flex list-none mr-12 mt-4;
+  }
+
+  .logo-container {
+    @apply w-40 ml-12;
+  }
+  
+  .logo-container img {
+    @apply h-12 items-center mt-[0.3rem] p-[0.1em] border-[0.2rem] border-red-900;
+  }
+  
+  .company-name {
+    @apply flex items-center mt-0 pt-[0.5em] font-serif;
+  }
+
+  /* Main CSS */
+
+  /* Typography */
+h1 {
+    @apply text-3xl font-bold md:text-4xl lg:text-5xl;
+  }
+  
+  h2 {
+    @apply text-xl font-semibold md:text-2xl lg:text-3xl;
+  }
+  
+    /* Layout */
+  .y-wrap {
+      @apply w-[90%] mt-24 mx-auto my-0;
+  }
+  
+  .page {
+      @apply w-full mx-auto my-16;
+    }
+  
+    .topic-container {
+      @apply flex flex-col-reverse items-center text-xs  m-0 mt-8 xl:flex-row xl:justify-around md:text-xl xl:mt-8;
+    }
+  
+    .topic-setup {
+      @apply w-full mt-16 mx-0 my-4 p-[2em] xl:w-6/12 md:text-xl;
+    } 
+  
+    .mts-partner-today a:visited {
+      @apply text-[black];
+    }
+    .mts-partner-today a:hover {
+      @apply text-[darkred];
+    }
+  
+    .email-container {
+      @apply ml-8 mt-32 mb-4;
+    }
