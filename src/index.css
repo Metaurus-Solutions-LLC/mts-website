@@ -33,7 +33,7 @@ body {
 
 /* Header */
 nav {
-  @apply sticky top-0 bg-[#182335] block fixed w-full text-[white] mt-0;
+  @apply sticky top-0 bg-[#182335] block w-full text-[white] mt-0;
 }
 
 .topBar {
