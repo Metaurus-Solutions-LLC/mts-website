@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/{mts-website}", plugins: [react()],
+  plugins: [react()],
 })

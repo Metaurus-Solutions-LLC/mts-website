@@ -16,7 +16,7 @@ This website is the main website for Metaurus Solutions, LLC.
 1. GITHUB
 
 <div style="align: left">
-  <img style="margin: 30px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="Vite" height="45" />
+  <img style="margin: 30px" src="https://media.licdn.com/dms/image/D4D12AQFZkbeVaofxzQ/article-cover_image-shrink_600_2000/0/1708033784779?e=2147483647&v=beta&t=8xtvmqPnaQ-hvmkf3Yj3ZhlytJ6mNTPopeFs5yRwazI" alt="Vite" height="45" />
   <img style="margin: 30px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="45" />
   <img style="margin: 30px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="45" />
   <img style="margin: 30px" src="https://profilinator.rishav.dev/skills-assets/tailwindcss.svg" alt="Tailwind CSS" height="45" />
