@@ -17,8 +17,8 @@ function App() {
         <Router>
             <Header/>
             <Routes>
-                <Route path="Email" element={<Email />} />
                 <Route exact path="/" element={<HomePage />} />
+                <Route path="Email" element={<Email />} />
                 <Route path="*" element={<E404 />} />
             </Routes>
             <Footer/>
