@@ -1,4 +1,5 @@
 import HomePage from './components/HomePage'
+import MetBattle from './components/MetBattle'
 import Email from './components/Email'
 import E404 from './components/E404'
 import Header from './components/Header'
@@ -18,6 +19,7 @@ function App() {
             <Header/>
             <Routes>
                 <Route exact path="/" element={<HomePage />} />
+                <Route path="MetBattle" element={<MetBattle />} />
                 <Route path="Email" element={<Email />} />
                 <Route path="*" element={<E404 />} />
             </Routes>

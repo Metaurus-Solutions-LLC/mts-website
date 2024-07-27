@@ -11,6 +11,7 @@ function NavBarLinks() {
         <div>
             <ul className="navs">
               <li className="mr-4 underline"><Link to="/">HomePage</Link></li>
+              <li className="mr-4 underline"><Link to="/metbattle">Battle of the Metaurus</Link></li>
               <li className="underline"><Link to="/email">Contact Us</Link></li>
             </ul>    
          </div>

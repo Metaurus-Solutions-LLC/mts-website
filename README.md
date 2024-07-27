@@ -43,15 +43,14 @@ This website is the main website for Metaurus Solutions, LLC.
 
 ## Metaurus Solutions Website Product Backlog
 1.  Change the email page to a dedicated Metaurus Solutions formspree call that sends email to ted.wetekamp@metaurus-solutions.com.
-2.  Add page illustrating the history of the Battle of the Metaurus.
+2.  Add drop-down menu to the menu bar.
 3.  Add company capabilities pages.
 4.  Add company capabilities menu page with page-link tiles and summaries.
-5.  Add drop-down menu to the menu bar.
-6.  Revise the Verge Tech PM processes for the Metaurus Solutions library.
-7.  Add "Hybrid Project Management" page(s) with illustrations and teasers.
-8.  Add Agile Project Management Page.
-9.  Add Waterfall Project Management Page.
-10. Add MultiCloud Capabilities pages.
-11. Internal search function.
-12. Beautify.
-13. Re-factor for SEO.
+5.  Revise the Verge Tech PM processes for the Metaurus Solutions library.
+6.  Add Agile Project Management Page.
+7.  Add Waterfall Project Management Page.
+8.  Add "Hybrid Project Management" page(s) with illustrations and teasers.
+9.  Add MultiCloud Capabilities pages.
+10. Internal search function.
+11. Beautify.
+12. Re-factor for SEO.

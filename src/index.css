@@ -45,8 +45,10 @@ nav {
     @apply text-[#0f1f3b];
   }
 
+  /* flex flex-col-reverse items-center text-xs  m-0 mt-8 xl:flex-row xl:justify-around md:text-xl xl:mt-8 */
   .navBar {
-    @apply flex justify-between items-start text-[seashell] mx-0 my-[0.25em];
+    @apply flex flex-col items-center text-xs text-[seashell] mx-0 my-[0.25em] xl:flex-row xl:justify-around md:text-xl xl:mt-8;
+    /* @apply flex flex-col-reverse items-center text-[seashell] mx-0 my-[0.25em] xl:justify-between xl:items-start; */
   }
 
   .navs {
@@ -54,7 +56,7 @@ nav {
   }
 
   .logo-container {
-    @apply w-40 ml-12;
+    @apply w-40 ml-12 min-w-20;
   }
   
   .logo-container img {
@@ -90,7 +92,7 @@ h1 {
     }
   
     .topic-setup {
-      @apply w-full mt-16 mx-0 my-4 p-[2em] xl:w-6/12 md:text-xl;
+      @apply w-full mt-4 mx-0 my-4 p-[2em] xl:w-6/12 md:text-xl;
     } 
   
     .mts-partner-today a:visited {
