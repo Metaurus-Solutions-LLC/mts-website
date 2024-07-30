@@ -17,10 +17,10 @@ function TopBarLinks() {
     return (
         <div className="topBar">
             <ul className="flex items-start list-none ml-8">
-              <li class="flex items-start list-none mr-4 m-2">Houston, TX</li>
+              <li className="flex items-start list-none mr-4 m-2">Houston, TX</li>
               <li className="flex items-start list-none mr-4 m-2 underline"><Link to="/email">Contact Us</Link></li>
             </ul>
-            <div class="justify-content: end; text-[white] text-2xl mr-8 m-2"></div>
+            <div className="justify-content: end; text-[white] text-2xl mr-8 m-2"></div>
          </div>
     );
   }
