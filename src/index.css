@@ -33,11 +33,11 @@ body {
 
 /* Header */
 nav {
-  @apply sticky top-0 bg-[#182335] block w-full text-[white] mt-0;
+  @apply sticky top-0 bg-gradient-to-t from-[#182335] to-blue-900 block w-full text-[white] mt-0;
 }
 
 .topBar {
-    @apply w-full flex justify-between list-none text-[white] bg-[darkred] m-0;
+    @apply w-full flex justify-between list-none text-[white] bg-gradient-to-b from-red-900 to-red-800 m-0;
     /* align-items: center; */
     /* Other options: space-around, space-evenly */
   }
