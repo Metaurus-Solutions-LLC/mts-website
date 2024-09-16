@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import NavBarLinks from './NavBarLinks';
+import NavBarLinks from './NavBarLinks.jsx';
 import TopBarLinks from './TopBarLinks';
 import logo from '../assets/metaurus_solutions_logo_dark.png'
 

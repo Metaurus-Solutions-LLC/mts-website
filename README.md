@@ -42,15 +42,16 @@ This website is the main website for Metaurus Solutions, LLC.
 - [Ted Wetekamp](https://www.linkedin.com/in/ted-wetekamp-a6a2281/)
 
 ## Metaurus Solutions Website Product Backlog
-1.  Change the email page to a dedicated Metaurus Solutions formspree call that sends email to ted.wetekamp@metaurus-solutions.com.
-2.  Add drop-down menu to the menu bar.
+
+1.  Re-factor for SEO.
+2.  Add a News page.
 3.  Add company capabilities pages.
 4.  Add company capabilities menu page with page-link tiles and summaries.
-5.  Revise the Verge Tech PM processes for the Metaurus Solutions library.
+5.  Revise the Verge Tech PM processes for the Metaurus Solutions library. - Done - But verify.
 6.  Add Agile Project Management Page.
 7.  Add Waterfall Project Management Page.
 8.  Add "Hybrid Project Management" page(s) with illustrations and teasers.
 9.  Add MultiCloud Capabilities pages.
 10. Internal search function.
-11. Beautify.
-12. Re-factor for SEO.
+11. Beautify - continuously.
+12. Change the email page to a dedicated Metaurus Solutions formspree call that sends email to info.wetekamp@metaurus-solutions.com.

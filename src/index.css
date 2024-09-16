@@ -23,11 +23,11 @@ html a:visited {
 
 body a:hover,
 html a:hover {
-  @apply text-[darkred];
+  @apply text-amber-400;
 }
 
 body {
-  @apply flex flex-col min-h-screen;
+  @apply flex flex-col min-h-screen text-white bg-[#1d2d46];  /* bg-gradient-to-t from-[#182335] to-blue-900 bg-[#1d2d46]*/
   font-family: sans-serif;
 }
 
@@ -37,7 +37,7 @@ nav {
 }
 
 .topBar {
-    @apply w-full flex justify-between list-none text-[white] bg-gradient-to-b from-red-900 to-red-800 m-0;
+    @apply w-full flex justify-between list-none text-[white] bg-gradient-to-b from-[darkred] to-red-800 m-0;
     /* align-items: center; */
     /* Other options: space-around, space-evenly */
   }
@@ -70,12 +70,16 @@ nav {
   /* Main CSS */
 
   /* Typography */
-h1 {
+  h1 {
     @apply text-3xl font-bold md:text-4xl lg:text-5xl;
   }
   
   h2 {
     @apply text-xl font-semibold md:text-2xl lg:text-3xl;
+  }
+  
+  h3 {
+    @apply text-sm font-semibold sm:text-lg md:text-xl lg:text-2xl;
   }
   
     /* Layout */
@@ -88,13 +92,21 @@ h1 {
     }
   
     .topic-container {
-      @apply flex flex-col-reverse items-center text-xs  m-0 mt-8 xl:flex-row xl:justify-around md:text-xl xl:mt-8;
+      @apply flex flex-col-reverse items-center text-xs m-0 mt-8 xl:flex-row xl:justify-around md:text-xl xl:mt-8;
     }
   
     .topic-setup {
       @apply w-full mt-4 mx-0 my-4 p-[2em] xl:w-6/12 md:text-xl;
     } 
-  
+    
+    .tile-container {
+      @apply text-xs md:text-xl bg-gradient-to-t from-[steelblue] to-[midnightblue] text-white w-4/5 h-72 my-4 rounded-md shadow-lg;
+    }
+
+    .tile-container-cloud {
+      @apply text-xs md:text-xl bg-gradient-to-t from-red-800 to-red-950 text-white w-4/5 h-72 my-4 rounded-md shadow-lg;
+    }
+
     .mts-partner-today a:visited {
       @apply text-[black];
     }
