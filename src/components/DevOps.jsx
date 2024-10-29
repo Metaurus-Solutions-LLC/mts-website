@@ -44,6 +44,7 @@ function DevOps() {
                <div className="tile-container">
                 <h3 className="text-center">CI/CD Pipeline</h3>
                 <p className="text-center m-2">We help organizations to set up a continuous integration and continuous delivery pipeline for their applications and services.</p>
+                <p className="mt-8 mx-16 my-4 underline"><Link to="/CICD1">CI/CD Example</Link></p>
                </div>
                <div className="tile-container">
                 <h3 className="text-center">Provisioning Automation</h3>

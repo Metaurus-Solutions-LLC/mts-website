@@ -67,7 +67,7 @@ function NavBarLinks() {
                         </MenuItem>
                         <MenuItem className="block px-4 py-2 text-sm data-[focus]:bg-[#182335] data-[focus]:text-[wheat]">
                           <div>
-                            <Link to="/metbattle">Who we are</Link>
+                            <Link to="/WhoWeAre">Who we are</Link>
                           </div>
                         </MenuItem>
                       </div>

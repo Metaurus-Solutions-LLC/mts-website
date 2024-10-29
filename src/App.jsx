@@ -1,6 +1,8 @@
 import HomePage from './components/HomePage'
 import MetBattle from './components/MetBattle'
+import WhoWeAre from './components/WhoWeAre'
 import DevOps from './components/DevOps'
+import CICD1 from './components/CICD1'
 import Cloud from './components/Cloud'
 import ProjMgmt from './components/ProjMgmt'
 import Email from './components/Email'
@@ -23,9 +25,11 @@ function App() {
             <Routes>
                 <Route exact path="/" element={<HomePage />} />
                 <Route path="DevOps" element={<DevOps />} />
+                <Route path="CICD1" element={<CICD1 />} />
                 <Route path="Cloud" element={<Cloud />} />
                 <Route path="ProjMgmt" element={<ProjMgmt />} />
                 <Route path="MetBattle" element={<MetBattle />} />
+                <Route path="WhoWeAre" element={<WhoWeAre />} />
                 <Route path="Email" element={<Email />} />
                 <Route path="*" element={<E404 />} />
             </Routes>
