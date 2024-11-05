@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import cicdBamboo from '../assets/MTRS-cicd-bamboo-ex1.jpg'
+import cicdBamboo from '../assets/MTRS-cicd-bamboo-ex1a.jpg'
 
 function CICD1() {
     return (
