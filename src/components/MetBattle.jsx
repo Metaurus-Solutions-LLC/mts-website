@@ -54,7 +54,7 @@ function MetBattle() {
            <div  className="mts-partner-today bg-gradient-to-t from-blue-300 to-white m-4 py-[1em] rounded-md">
              <h1  className="text-[#182335] mt-8 mx-16 my-4">Start partnering with Metaurus Solutions today.</h1>
              <h2  className="text-[#182335] mt-8 mx-16 my-4">Find out how Metaurus Solutions can help you to achieve your objectives with project planning and execution.</h2>
-             <h2 className="text-[darkred] mt-8 mx-16 my-4 underline"><Link to="/email">Contact Us</Link></h2>
+             <h2 className="text-[darkred] mt-8 mx-16 my-4 underline"><Link to="email">Contact Us</Link></h2>
            </div>  
          </div>
        </div>

@@ -24,13 +24,13 @@ function App() {
             <Header/>
             <Routes>
                 <Route exact path="/" element={<HomePage />} />
-                <Route path="/DevOps" element={<DevOps />} />
-                <Route path="/CICD1" element={<CICD1 />} />
-                <Route path="/Cloud" element={<Cloud />} />
-                <Route path="/ProjMgmt" element={<ProjMgmt />} />
-                <Route path="/MetBattle" element={<MetBattle />} />
-                <Route path="/WhoWeAre" element={<WhoWeAre />} />
-                <Route path="/Email" element={<Email />} />
+                <Route path="DevOps" element={<DevOps />} />
+                <Route path="CICD1" element={<CICD1 />} />
+                <Route path="Cloud" element={<Cloud />} />
+                <Route path="ProjMgmt" element={<ProjMgmt />} />
+                <Route path="MetBattle" element={<MetBattle />} />
+                <Route path="WhoWeAre" element={<WhoWeAre />} />
+                <Route path="Email" element={<Email />} />
                 <Route path="*" element={<E404 />} />
             </Routes>
             <Footer/>

@@ -24,17 +24,17 @@ function NavBarLinks() {
                       <div className="py-1">
                       <MenuItem>
                           <div className="block px-4 py-2 text-sm data-[focus]:bg-[#182335] data-[focus]:text-[wheat]">
-                            <Link to="/DevOps">DevOps</Link>
+                            <Link to="DevOps">DevOps</Link>
                           </div>
                         </MenuItem>
                         <MenuItem>
                           <div className="block px-4 py-2 text-sm data-[focus]:bg-[#182335] data-[focus]:text-[wheat]">
-                            <Link to="/Cloud">Cloud</Link>
+                            <Link to="Cloud">Cloud</Link>
                           </div>
                         </MenuItem>
                         <MenuItem>
                           <div className="block px-4 py-2 text-sm data-[focus]:bg-[#182335] data-[focus]:text-[wheat]">
-                            <Link to="/ProjMgmt">Project Management</Link>
+                            <Link to="ProjMgmt">Project Management</Link>
                           </div>
                         </MenuItem>
                       </div>
@@ -57,24 +57,24 @@ function NavBarLinks() {
                       <div className="py-1">
                         <MenuItem>
                           <div className="block px-4 py-2 text-sm data-[focus]:bg-[#182335] data-[focus]:text-[wheat]">
-                            <Link to="/metbattle">Battle of the Metaurus</Link>
+                            <Link to="Metbattle">Battle of the Metaurus</Link>
                           </div>
                         </MenuItem>
                         <MenuItem className="block px-4 py-2 text-sm data-[focus]:bg-[#182335] data-[focus]:text-[wheat]">
                           <div>
-                            <Link to="/metbattle">News</Link>
+                            <Link to="Metbattle">News</Link>
                           </div>
                         </MenuItem>
                         <MenuItem className="block px-4 py-2 text-sm data-[focus]:bg-[#182335] data-[focus]:text-[wheat]">
                           <div>
-                            <Link to="/WhoWeAre">Who we are</Link>
+                            <Link to="WhoWeAre">Who we are</Link>
                           </div>
                         </MenuItem>
                       </div>
                     </MenuItems>
                   </Menu> 
               </li>
-              <li className="umr-4 gap-x-1.5 rounded-md bg-[#182335] px-3 py-2 text-sm font-semibold text-[wheat] shadow-sm ring-1 ring-inset hover:bg-[#253653]"><Link to="/email">Contact Us</Link></li>
+              <li className="umr-4 gap-x-1.5 rounded-md bg-[#182335] px-3 py-2 text-sm font-semibold text-[wheat] shadow-sm ring-1 ring-inset hover:bg-[#253653]"><Link to="email">Contact Us</Link></li>
             </ul>    
          </div>
     );
