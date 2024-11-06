@@ -21,7 +21,7 @@ function Footer() {
     <div className="bg-gradient-to-t from-[#182335] to-blue-900 text-[rgba(255,255,255,0.7)] w-full m-auto p-8">
       <ul className="flex flex-row">
         <li className="mr-4"><Link to="/">HomePage</Link></li>
-        <li><Link to="email">Contact Us</Link></li>
+        <li><Link to="/email">Contact Us</Link></li>
       </ul>
    </div>
   );
