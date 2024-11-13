@@ -11,7 +11,8 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 
 import {
-    BrowserRouter as Router,
+  //* BrowserRouter as Router, *//
+    HashRouter as Router,
     Route,
     Routes
 } from 'react-router-dom'
@@ -20,7 +21,7 @@ import {
 function App() {
   return (
     <div class="justify-between">
-        <Router>
+        <Router hashType="noslash">
             <Header/>
             <Routes>
                 <Route exact path="/" element={<HomePage />} />
