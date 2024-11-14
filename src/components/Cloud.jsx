@@ -96,7 +96,7 @@ function Cloud() {
                </div>
                <div className="tile-container-cloud">
                 <h3 className="text-center">Big Data Services</h3>
-                <p className="text-center m-2">Runn big data frameworks, such as Apache Hadoop and Apache Spark.</p>
+                <p className="text-center m-2">Run big data frameworks, such as Apache Hadoop and Apache Spark.</p>
                </div>
                <div className="tile-container-cloud">
                 <h3 className="text-center">Data Streaming Analytics</h3>

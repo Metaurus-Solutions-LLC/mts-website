@@ -41,7 +41,7 @@ function WhoWeAre() {
                 <p className="my-4">In addition, Ted is pursuing multiple cloud certifications.</p>
                 <p className="my-4">As part of the MultiCloud Specialization, Ted implemented Cloud projects based on real-world scenarios such as:</p>
                 <p> - Migrating users into an AWS enterprise environment.</p>
-                <p>Learn more about these cloud projects by visiting Ted's Cloud Portfolio at: https://medium.com/@ted.wetekamp</p>
+                <p>Learn more about these cloud projects by visiting Ted's Cloud Portfolio at: <a href="https://medium.com/@ted.wetekamp" target="_blank">https://medium.com/@ted.wetekamp</a> </p>
                 <p>Technologies of interest:</p>
                 <p>Cloud | MultiCloud | DevOps | AWS | Microsoft Azure | Google Cloud | Oracle Cloud | Terraform | Ansible</p>
                </div>
