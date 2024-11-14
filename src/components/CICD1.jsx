@@ -12,10 +12,10 @@ function CICD1() {
                  <p  className="my-4">This solution is an example of a CI/CD Pipeline that was built for a client to illustrate the capabilities available with Metaurus Solutions.  The specific solution for your organization may be different from this based on the result of the "Assessment and Planning" step. </p>
                </div>
                <div>
-                 <p  className="my-4">- Tools used: Bitbucket, Bamboo, SonarQube, AWS EC2, IAM, ECR, EKS, ARGOCD, Helm.</p>
+                 <p  className="my-4">- Tools used: Bitbucket, Bamboo, SonarQube, AWS EC2, IAM, ECR, Kubernetes, EKS, Ingress Load Balancer Argo CD, Helm.</p>
                </div>
                <div>
-                 <p  className="my-4"><strong>4 environments were deployed DEV, SIT, UAT and PROD. </strong>Configured a Dockerfile which creates an image which deployed on an EKS cluster on port 8080 accessible through an internal ALB with route 53 as an alias link. 2 repos were created under same project in bitbucket, application repo and Helm repository.</p>
+                 <p  className="my-4"><strong>Four environments were deployed DEV, SIT, UAT and PROD. </strong>Configured a Dockerfile which creates an image which deployed on an EKS cluster on port 8080 accessible through an internal ALB with route 53 as an alias link. Two repositories were created under same project in bitbucket, application repository and Helm repository.</p>
                </div>
                <div>
                  <p  className="my-4"><strong>In Bamboo: </strong>Utilized "Create project", "Create plan", "Add task to build plan" and "Deployment plan". Also setup a separate task to integrate SonarQube for code coverage on builds.</p>
@@ -27,7 +27,7 @@ function CICD1() {
                  <p  className="my-4">The repository is configured to accommodate multiple environments.  Installed using Helm Charts AWS ALB(application load balancer) controller for ingress to allow applications in the cluster to have access to the internet.  </p>
                </div>
                <div>
-                 <p  className="my-4">ArgoCD is utilized in the repository to maintain a defined point of truth and synchronization for applications to meet the desired state in the repository from the current state.  In Bamboo added custom capabilities to multiple agents in Bamboo to make sure build times are fast as possible and to ensure zero downtime when running builds.  The client utilized Bamboo to troubleshoot any failed build and deployment.  </p>
+                 <p  className="my-4">Argo CD were utilized in the repository to maintain a defined point of truth and synchronization for applications to meet the desired state in the repository from the current state. In Bamboo custom capabilities were added to multiple agents to ensure build that times are as fast as possible and that the solution was scalable and with zero downtime when running builds. The logs in Bamboo provide detailed information for troubleshooting failed builds.  </p>
                </div>
              </div>  
              <div  className="w-8/12 md:w-10/12 md:max-w-2xl"> {/* topic-image */}

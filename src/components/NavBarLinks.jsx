@@ -37,6 +37,11 @@ function NavBarLinks() {
                             <Link to="/ProjMgmt">Project Management</Link>
                           </div>
                         </MenuItem>
+                        <MenuItem>
+                          <div className="block px-4 py-2 text-sm data-[focus]:bg-[#182335] data-[focus]:text-[wheat]">
+                            <Link to="/ProjMgmtWaterfall">Waterfall Project Management</Link>
+                          </div>
+                        </MenuItem>
                       </div>
                     </MenuItems>
                   </Menu> 

@@ -49,7 +49,7 @@ function WhoWeAre() {
                <div className="mx-20 my-8 text-xs md:text-xl">
                 <p className="my-4">Femi's role as DevOps Technical Lead intertwines AWS excellence with Chef.io configuration mastery, streamlining cloud services for optimal performance. Femi's academic roots in Earth Science from the University of Ilorin, coupled with advanced computer science credits from Dallas College, have cemented his technical foundation. </p>
                 <p className="my-4">As an Observability Engineer, Femi cultivates a resilient infrastructure, ensuring high availability and robust monitoring capabilities, which speaks to his commitment to continuous improvement and the pursuit of fault-tolerant systems. Our team's advancements in observability reflect our dedication to operational excellence and the delivery of dependable cloud solutions.</p>
-                <p>Learn more about these cloud projects by visiting Femi's Cloud Portfolio at: https://medium.com/@femi.Ajibade</p>
+                {/* <p>Learn more about these cloud projects by visiting Femi's Cloud Portfolio at: https://medium.com/@femi.Ajibade</p> */}
                 <p>Technologies of interest:</p>
                 <p>Cloud | MultiCloud | DevOps | AWS | Microsoft Azure | Google Cloud | Oracle Cloud | Terraform | Ansible</p>
                </div>

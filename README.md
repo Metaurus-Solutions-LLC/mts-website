@@ -49,7 +49,7 @@ This website is the main website for Metaurus Solutions, LLC.
 4.  Add company capabilities menu page with page-link tiles and summaries.
 5.  Revise the Verge Tech PM processes for the Metaurus Solutions library. - Done - But verify.
 6.  Add Agile Project Management Page.
-7.  Add Waterfall Project Management Page.
+7.  Add Waterfall Project Management Page. - Done - But integrate with Agile for a "Hybrid" approach.
 8.  Add "Hybrid Project Management" page(s) with illustrations and teasers.
 9.  Add MultiCloud Capabilities pages.
 10. Internal search function.
