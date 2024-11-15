@@ -21,6 +21,10 @@ function TopBarLinks() {
               <li className="flex items-start list-none mr-4 m-2 underline"><Link to="/email">Contact Us</Link></li>
             </ul>
             <div className="justify-content: end; text-[white] text-2xl mr-8 m-2"></div>
+            <div class="justify-content: end; text-[white] text-2xl mr-8 m-2">
+              <a href="https://www.linkedin.com/company/metaurus-solutions-llc/" target="_blank"><i className="fab fa-linkedin fa-2x mx-2"></i></a>
+              <a href="./pages/email.html" target="_blank"><i className="fa fa-envelope-square fa-2x mx-2"></i></a>
+            </div>
          </div>
     );
   }
