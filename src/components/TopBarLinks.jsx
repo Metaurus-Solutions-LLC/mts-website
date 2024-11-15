@@ -23,7 +23,8 @@ function TopBarLinks() {
             <div className="justify-content: end; text-[white] text-2xl mr-8 m-2"></div>
             <div class="justify-content: end; text-[white] text-2xl mr-8 m-2">
               <a href="https://www.linkedin.com/company/metaurus-solutions-llc/" target="_blank"><i className="fab fa-linkedin fa-2x mx-2"></i></a>
-              <a href="./pages/email.html" target="_blank"><i className="fa fa-envelope-square fa-2x mx-2"></i></a>
+              {/* <a href="./pages/email.html" target="_blank"><i className="fa fa-envelope-square fa-2x mx-2"></i></a> */}
+              <Link to="/email"><i class="fa fa-envelope-square fa-2x"></i></Link>
             </div>
          </div>
     );
