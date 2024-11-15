@@ -58,7 +58,7 @@ function ProjMgmtWaterfall() {
                   </ol>
                </div>           
                <div className="my-4">
-                   <p>The above list is just an illustration of the readiness to plan your projects with reliable, proven processes and tools.  The team at Metaurus Solutions has the the expertise and experience to plan and manage your projects to help you achieve your business and technical goals and objectives. </p>
+                   <p>The above list is just an illustration of the readiness to plan your projects with reliable, proven processes and tools.  As the project progresses the execution is tracked, managed and controlled.  The team at Metaurus Solutions has the expertise and experience to plan and manage your projects to help you achieve your business and technical goals and objectives. </p>
                </div> 
              </div> 
            </div> 
