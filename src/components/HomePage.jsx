@@ -7,7 +7,7 @@ function HomePage() {
          <div  className="page">
            <div  className="topic-container"> {/* topic-container */}
              <div  className="topic-setup"> {/* topic-setup */}
-               <h2  className="my-0 lg:my-4">Accelerating Success through technical Intelligence and Innovation</h2>
+               <h2  className="my-0 lg:my-4">Accelerating Success through technology and innovation</h2>
                <div>
                  <p  className="my-4">Metaurus Solutions can manage your organization's IT projects and support and upgrade your Cloud and DevOps infrastructure.</p>
                </div>
